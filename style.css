@@ -88,7 +88,7 @@ header {
   background-image: url(imagens/chocolate-homebox.png);
   background-repeat: no-repeat;
   background-size: cover;
-
+  
   display: flex;
   justify-content: flex-start
 }
@@ -125,7 +125,7 @@ header {
 .home-text{
   height: 35rem;
   width: 70rem;
-
+  
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -139,7 +139,68 @@ header {
   background-image: linear-gradient(
     rgba(180, 119, 119, 0.788),
     rgba(141, 72, 72, 0.631)
-  ),url(imagens/chocolates-background.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+    ),url(imagens/chocolates-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .produtos-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6rem;
+    padding: 2rem;
 }
+
+.card{
+  height: 34rem;
+  background-color: #dfbdb7c0;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 1.1rem;
+  overflow: hidden;
+  transition: all 0.4s;
+
+  display: flex;
+  padding: 2rem;
+}
+
+.card-img{
+  height: 20rem;
+  align-self: center;
+  border-radius: 10px;
+}
+
+.card-text{
+  font-size: 2.6rem;
+  align-self: center;
+  margin-left: 4rem;
+}
+
+.section-sorvetes{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8rem;
+}
+
+.sorvetes-txt-title{
+  font-size: 4rem;
+  margin-bottom: 3rem;
+}
+
+.sorvetes-img{
+  height: 60rem;
+  border-radius: 10px;
+}
+
+.section-equipe{
+  background-image: linear-gradient(
+    rgba(180, 119, 119, 0.788),
+    rgba(141, 72, 72, 0.631)
+    ),url(imagens/kitchen-ga24e45015_1280.jpg);
+  background-size: cover;
+}
+

@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
 body {
   font-family: 'Rubik', sans-serif;
   background-color: #f3e9e8;
@@ -14,14 +19,14 @@ body {
 }
 
 header {
-  height: 46px;
+  height: 4.6rem;
   background-color: #D6948B;
   opacity: 90%;
 
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px;
+  padding: 1rem;
 }
 
 .left-nav{
@@ -30,18 +35,18 @@ header {
 }
 
 .logo {
-  height: 34px;
+  height: 3.4rem;
 }
 
 .title {
   font-weight: 500;
-  padding-left: 4px;
+  padding-left: 0.4rem;
 }
 
 .nav-link{
-    font-size: 24px;
+    font-size: 2.4rem;
     text-decoration: none;
-    padding-right: 8px;
+    padding-right: 0.8rem;
     color: #57251E;
 }
 
@@ -52,39 +57,39 @@ header {
 
 .section-home{
   text-align: center;
-  padding: 80px;
+  padding: 8rem;
 }
 
 .home-box{
   background-image: linear-gradient(rgba(255, 255, 255, 0.421), rgba(255, 255, 255, 0.347)), url(imagens/chocolates-background.jpg);
-  height: 300px;
-  border-radius: 10px;
+  height: 30rem;
+  border-radius: 1rem;
 }
 
 .cabecalho1{
-  font-size: 76px;
+  font-size: 7.6rem;
   opacity: 1;
 }
 
 .cabecalho2{
-  font-size: 36px;
+  font-size: 3.6rem;
   opacity: 1;
 }
 
 .home-text-img{
   display: flex;
-  padding: 50px;
+  padding: 5rem;
   justify-content: center;
-  gap: 200px;
+  gap: 20rem;
 }
 
 .home-text{
-  width: 500px;
+  width: 50rem;
 }
 
 .home-img{
-  height: 350px;
-  border-radius: 10px;
+  height: 35rem;
+  border-radius: 1rem;
 }
 
 
@@ -93,6 +98,6 @@ header {
 }
 
 .img-novidade{
-  height: 500px;
-  border-radius: 10px;
+  height: 50rem;
+  border-radius: 1rem;
 }

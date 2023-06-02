@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+  background-color: #f3e9e8;
+  width: 100%;
+  color: #57251E;
+
+  overflow-x: hidden;
+}
+
+header {
+  height: 46px;
+  background-color: #D6948B;
+  opacity: 90%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.left-nav{
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 34px;
+}
+
+.title {
+  font-weight: 500;
+  padding-left: 4px;
+}
+
+.nav-link{
+    font-size: 24px;
+    text-decoration: none;
+    padding-right: 8px;
+    color: #57251E;
+}
+
+.container {
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.section-home{
+  text-align: center;
+  padding: 80px;
+}
+
+.home-box{
+  background-image: linear-gradient(rgba(255, 255, 255, 0.421), rgba(255, 255, 255, 0.347)), url(imagens/chocolates-background.jpg);
+  height: 300px;
+  border-radius: 10px;
+}
+
+.cabecalho1{
+  font-size: 76px;
+  opacity: 1;
+}
+
+.cabecalho2{
+  font-size: 36px;
+  opacity: 1;
+}
+
+
+
+.section-novidades{
+  display: flex;
+}
+
+.img-novidade{
+  height: 500px;
+  border-radius: 10px;
+}

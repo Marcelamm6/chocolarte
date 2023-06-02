@@ -71,6 +71,21 @@ header {
   opacity: 1;
 }
 
+.home-text-img{
+  display: flex;
+  padding: 50px;
+  justify-content: center;
+  gap: 200px;
+}
+
+.home-text{
+  width: 500px;
+}
+
+.home-img{
+  height: 350px;
+  border-radius: 10px;
+}
 
 
 .section-novidades{

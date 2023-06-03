@@ -202,5 +202,34 @@ header {
     rgba(141, 72, 72, 0.631)
     ),url(imagens/kitchen-ga24e45015_1280.jpg);
   background-size: cover;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 20rem;
 }
 
+.flex-equip{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 15rem;
+}
+
+.card-equip{
+  flex-direction: column;
+  padding: 6rem;
+  height: 50rem;
+}
+
+.equip-img{
+  clip-path: circle(50% at 50% 50%);
+}
+
+.equip-name{
+  font-size: 2.4rem;
+  text-align: center;
+  margin-top: 2rem;
+}

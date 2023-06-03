@@ -153,21 +153,21 @@ header {
     grid-template-columns: 1fr 1fr;
     gap: 6rem;
     padding: 2rem;
-}
-
-.card{
-  height: 34rem;
-  background-color: #dfbdb7c0;
-  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
-  border-radius: 1.1rem;
-  overflow: hidden;
-  transition: all 0.4s;
-
-  display: flex;
-  padding: 2rem;
-}
-
-.card-img{
+  }
+  
+  .card{
+    height: 34rem;
+    background-color: #dfbdb7c0;
+    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+    border-radius: 1.1rem;
+    overflow: hidden;
+    transition: all 0.4s;
+    
+    display: flex;
+    padding: 2rem;
+  }
+  
+  .card-img{
   height: 20rem;
   align-self: center;
   border-radius: 10px;
@@ -206,7 +206,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-
+  
   padding: 20rem;
 }
 
@@ -214,7 +214,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-
+  
   gap: 15rem;
 }
 
@@ -222,6 +222,7 @@ header {
   flex-direction: column;
   padding: 6rem;
   height: 50rem;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
 
 .equip-img{
@@ -232,4 +233,68 @@ header {
   font-size: 2.4rem;
   text-align: center;
   margin-top: 2rem;
+}
+
+.section-contato{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contato-box{
+  background-image: linear-gradient(
+    rgba(218, 188, 188, 0.788),
+    rgba(237, 222, 222, 0.631)
+    ),url(imagens/vintage-gb237e3745_1280.jpg);
+    background-size: cover;
+    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.157);
+    border-radius: 10px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 4rem;
+    
+    height: 70rem;
+  }
+  
+  .contato-title{
+    font-size: 2.4rem;
+  }
+  
+  .form-item{
+   display: flex;
+   flex-direction: column;
+   font-size: 2rem;
+   padding: 1rem;
+}
+
+.form-item input{
+  background-color: #e4d3d1ab;
+  border: none;
+  border-radius: 5px;
+  padding: 1rem;
+  width: 35rem;
+}
+
+.btn-btn{
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.btn{
+  font-size: 2rem;
+  border: none;
+  color: #57251E;
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: #906f6be3;
+}
+
+.btn:hover{
+  background-color: #e4d3d1ab;
+  cursor: pointer;
 }

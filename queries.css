@@ -1,11 +1,37 @@
-/* 1219px */
-@media (max-width: 76em) {
+/* 1444px */
+@media (max-width: 90em) {
   html {
     font-size: 50%;
   }
+  .card {
+    height: 28rem;
+  }
+  .card-equip {
+    padding: 6rem;
+    height: 45rem;
+    width: 40rem;
+  }
+  .equip-img {
+    clip-path: circle(50% at 50% 50%);
+    height: 18rem;
+    width: 18rem;
+    margin: 0 auto;
+  }
+}
+/* 1326px */
+@media (max-width: 83em) {
+  html {
+    font-size: 50%;
+  }
+  .home-box-back {
+    height: 30rem;
+  }
+}
+/* 1219px */
+@media (max-width: 76em) {
 }
 /* 952px */
-@media (max-width: 60em) {
+@media (max-width: 70em) {
   html {
     font-size: 35%;
   }

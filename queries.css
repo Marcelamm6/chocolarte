@@ -1,0 +1,12 @@
+/* 1219px */
+@media (max-width: 76em) {
+  html {
+    font-size: 50%;
+  }
+}
+/* 952px */
+@media (max-width: 60em) {
+  html {
+    font-size: 35%;
+  }
+}

@@ -11,10 +11,10 @@ html {
 }
 
 body {
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
   background-color: #f3e9e8;
   width: 100%;
-  color: #57251E;
+  color: #57251e;
 
   overflow-x: hidden;
 }
@@ -37,17 +37,17 @@ header {
   gap: 2px;
 }
 
-  .icon {
-    height: 3.4rem;
-    width: 3.4rem;
-  }
-  
-  .icon:hover {
-    cursor: pointer;
-    color: #dabab6;
-  }
+.icon {
+  height: 3.4rem;
+  width: 3.4rem;
+}
 
-.left-nav{
+.icon:hover {
+  cursor: pointer;
+  color: #dabab6;
+}
+
+.left-nav {
   display: flex;
   align-items: center;
 }
@@ -61,16 +61,16 @@ header {
   padding-left: 0.4rem;
 }
 
-.nav-link{
-    font-size: 2.4rem;
-    text-decoration: none;
-    padding-right: 0.8rem;
-    color: #57251E;
+.nav-link {
+  font-size: 2.4rem;
+  text-decoration: none;
+  padding-right: 0.8rem;
+  color: #57251e;
 }
 
-.nav-link:hover{
+.nav-link:hover {
   cursor: pointer;
-    color: #dabab6;
+  color: #dabab6;
 }
 
 .container {
@@ -78,22 +78,22 @@ header {
   margin: 0 auto;
 }
 
-.section-home{
+.section-home {
   text-align: center;
-  color: #57251E;
+  color: #57251e;
 }
 
-.home-box-back{
+.home-box-back {
   height: 40rem;
   background-image: url(imagens/chocolate-homebox.png);
   background-repeat: no-repeat;
   background-size: cover;
-  
+
   display: flex;
-  justify-content: flex-start
+  justify-content: flex-start;
 }
 
-.home-box{
+.home-box {
   background-color: #dfbcb7ce;
   clip-path: polygon(0% 0%, 84% 0, 100% 50%, 85% 100%, 0% 100%);
   width: 80rem;
@@ -101,15 +101,15 @@ header {
   text-align: start;
 }
 
-.cabecalho1{
+.cabecalho1 {
   font-size: 7.6rem;
 }
 
-.cabecalho2{
+.cabecalho2 {
   font-size: 3.6rem;
 }
 
-.home-text-img{
+.home-text-img {
   display: flex;
   padding: 5rem;
   justify-content: center;
@@ -117,161 +117,171 @@ header {
   gap: 20rem;
 }
 
-.home-img{
+.home-img {
   height: 25rem;
   clip-path: circle(50% at 50% 50%);
 }
 
-.home-text{
+.home-text {
   height: 35rem;
   width: 70rem;
-  
+
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.home-text-title{
+.home-text-title {
   font-size: 3.6rem;
 }
 
-.section-produtos{
+.section-produtos {
   background-image: linear-gradient(
-    rgba(180, 119, 119, 0.788),
-    rgba(141, 72, 72, 0.631)
-    ),url(imagens/chocolates-background.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+      rgba(180, 119, 119, 0.788),
+      rgba(141, 72, 72, 0.631)
+    ),
+    url(imagens/chocolates-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .produtos-grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 6rem;
-    padding: 2rem;
-  }
-  
-  .card{
-    height: 34rem;
-    background-color: #dfbdb7c0;
-    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
-    border-radius: 1.1rem;
-    overflow: hidden;
-    transition: all 0.4s;
-    
-    display: flex;
-    padding: 2rem;
-  }
-  
-  .card-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.produtos-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6rem;
+  padding: 2rem;
+}
+
+.card {
+  height: 34rem;
+  background-color: #dfbdb7c0;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 1.1rem;
+  overflow: hidden;
+  transition: all 0.4s;
+
+  display: flex;
+  padding: 2rem;
+}
+
+.card-img {
   height: 20rem;
   align-self: center;
   border-radius: 10px;
 }
 
-.card-text{
+.card-text {
   font-size: 2.6rem;
   align-self: center;
   margin-left: 4rem;
 }
 
-.section-sorvetes{
+.section-sorvetes {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 8rem;
+  gap: 2rem;
 }
 
-.sorvetes-txt-title{
+.sorvetes-txt-title {
   font-size: 4rem;
   margin-bottom: 3rem;
 }
 
-.sorvetes-img{
+.sorvetes-img {
   height: 60rem;
   border-radius: 10px;
 }
 
-.section-equipe{
+.section-equipe {
   background-image: linear-gradient(
-    rgba(180, 119, 119, 0.788),
-    rgba(141, 72, 72, 0.631)
-    ),url(imagens/kitchen-ga24e45015_1280.jpg);
+      rgba(180, 119, 119, 0.788),
+      rgba(141, 72, 72, 0.631)
+    ),
+    url(imagens/kitchen-ga24e45015_1280.jpg);
   background-size: cover;
-  
+
   display: flex;
   align-items: center;
   justify-content: center;
-  
+
   padding: 20rem;
 }
 
-.flex-equip{
+.flex-equip {
   display: flex;
   align-items: center;
   justify-content: center;
-  
+
   gap: 15rem;
 }
 
-.card-equip{
+.card-equip {
   flex-direction: column;
   padding: 6rem;
-  height: 50rem;
+  height: 55rem;
+  width: 40rem;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
 
-.equip-img{
+.equip-img {
   clip-path: circle(50% at 50% 50%);
 }
 
-.equip-name{
+.card-equip h2 {
   font-size: 2.4rem;
   text-align: center;
   margin-top: 2rem;
 }
 
-.section-contato{
+.equip-txt {
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.section-contato {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.contato-box{
+.contato-box {
   background-image: linear-gradient(
-    rgba(218, 188, 188, 0.788),
-    rgba(237, 222, 222, 0.631)
-    ),url(imagens/vintage-gb237e3745_1280.jpg);
-    background-size: cover;
-    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.157);
-    border-radius: 10px;
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-    padding: 4rem;
-    
-    height: 70rem;
-  }
-  
-  .contato-title{
-    font-size: 2.4rem;
-  }
-  
-  .form-item{
-   display: flex;
-   flex-direction: column;
-   font-size: 2rem;
-   padding: 1rem;
+      rgba(218, 188, 188, 0.788),
+      rgba(237, 222, 222, 0.631)
+    ),
+    url(imagens/vintage-gb237e3745_1280.jpg);
+  background-size: cover;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.157);
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 4rem;
+
+  height: 70rem;
 }
 
-.form-item input{
+.contato-title {
+  font-size: 2.4rem;
+}
+
+.form-item {
+  display: flex;
+  flex-direction: column;
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.form-item input {
   background-color: #f3eeeeab;
   border: none;
   border-radius: 5px;
@@ -279,22 +289,22 @@ header {
   width: 35rem;
 }
 
-.btn-btn{
+.btn-btn {
   display: flex;
   justify-content: center;
   padding: 2rem;
 }
 
-.btn{
+.btn {
   font-size: 2rem;
   border: none;
-  color: #57251E;
+  color: #57251e;
   padding: 1rem;
   border-radius: 10px;
   background-color: #906f6be3;
 }
 
-.btn:hover{
+.btn:hover {
   background-color: #e4d3d1ab;
   cursor: pointer;
 }
